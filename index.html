@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luxoria - Événement Prestigieux</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome pour les icônes -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header/Navigation -->
+    <header>
+        <a href="#" class="logo"><span>L</span>uxoria</a>
+        <ul class="navbar">
+            <li><a href="#accueil">Accueil</a></li>
+            <li><a href="#programme">Programme</a></li>
+            <li><a href="#annonces">Annonces</a></li>
+            <li><a href="#intervenants">Intervenants</a></li>
+            <li><a href="#galerie">Galerie</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <a href="#reservation" class="btn-reserve">Réservation</a>
+        </ul>
+    </header>
+
+    <!-- Section Héro/Accueil -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Luxoria</h1>
+            <p class="subtitle">Un événement d'exception</p>
+            <div class="event-info">
+                <div class="info-item">
+                    <i class="far fa-calendar"></i>
+                    <p>15-17 Juin 2026</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Brazzaville</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-users"></i>
+                    <p>500+ Participants</p>
+                </div>
+            </div>
+            <button class="btn btn-gold btn-lg mt-4"><a href="#reservation" style="text-decoration: none; color: white;">Réserver Maintenant</a></button>
+        </div>
+    </section>
+
+    <!-- Section Annonces -->
+    <section id="annonces" class="announcements py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Annonces : date, lieu et programme</h2>
+            <div class="row g-4">
+                <div class="col-lg-4 col-md-6">
+                    <div class="announcement-card">
+                        <h4>Date</h4>
+                        <p>15-17 Juin 2026</p>
+                        <p>Trois jours dédiés aux conférences, ateliers et soirées networking.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="announcement-card">
+                        <h4>Lieu</h4>
+                        <p>Brazzaville - ESGAE</p>
+                        <p>Salle principale, espaces d’ateliers et village des exposants.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="announcement-card">
+                        <h4>Programme</h4>
+                        <ul class="announcement-list">
+                            <li>Conférences internationales</li>
+                            <li>Ateliers pratiques</li>
+                            <li>Rencontres networking</li>
+                            <li>Cérémonie de clôture</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="about py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20172022.jpg" alt="À propos de Luxoria" class="img-fluid rounded">
+                </div>
+                <div class="col-lg-6">
+                    <h2>À propos de Luxoria</h2>
+                    <p>Luxoria est un événement prestigieux dédié aux professionnels, entrepreneurs et innovateurs. 
+                    Pendant 3 jours intenses, découvrez les dernières tendances, rencontrez des experts reconnus 
+                    et établissez des connexions précieuses.</p>
+                    <ul class="about-list">
+                        <li><i class="fas fa-check"></i> Conférences et ateliers de haut niveau</li>
+                        <li><i class="fas fa-check"></i> Rencontres avec des leaders d'industrie</li>
+                        <li><i class="fas fa-check"></i> Networking exclusif</li>
+                        <li><i class="fas fa-check"></i> Accès à une communauté mondiale</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Programme -->
+    <section id="programme" class="programme py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Programme Détaillé</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="program-card">
+                        <div class="program-date">
+                            <span class="day">15</span>
+                            <span class="month">Juin</span>
+                        </div>
+                        <h4>Jour 1 : Ouverture & Keynote</h4>
+                        <p><strong>09:00</strong> - Accueil des participants</p>
+                        <p><strong>10:00</strong> - Discours d'ouverture</p>
+                        <p><strong>11:30</strong> - Première keynote</p>
+                        <p><strong>13:00</strong> - Déjeuner réseautage</p>
+                        <p><strong>14:30</strong> - Ateliers parallèles</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="program-card">
+                        <div class="program-date">
+                            <span class="day">16</span>
+                            <span class="month">Juin</span>
+                        </div>
+                        <h4>Jour 2 : Sessions & Ateliers</h4>
+                        <p><strong>09:00</strong> - Sessions parallèles</p>
+                        <p><strong>11:00</strong> - Table ronde</p>
+                        <p><strong>12:30</strong> - Déjeuner</p>
+                        <p><strong>14:00</strong> - Démonstrations</p>
+                        <p><strong>17:00</strong> - Cocktail réseautage</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="program-card">
+                        <div class="program-date">
+                            <span class="day">17</span>
+                            <span class="month">Juin</span>
+                        </div>
+                        <h4>Jour 3 : Clôture & Réseautage</h4>
+                        <p><strong>09:00</strong> - Dernières sessions</p>
+                        <p><strong>11:00</strong> - Panels de discussion</p>
+                        <p><strong>12:30</strong> - Déjeuner de gala</p>
+                        <p><strong>15:00</strong> - Cérémonie de clôture</p>
+                        <p><strong>16:00</strong> - Au revoir</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Intervenants -->
+    <section id="intervenants" class="speakers py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nos Intervenants</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="speaker-card">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20173035.jpg" alt="Intervenant 1" class="speaker-img">
+                        <h5>MONTES Chris Harold</h5>
+                        <p class="speaker-role">Expert en Innovation</p>
+                        <p class="speaker-bio">Spécialiste en technologies émergentes et transformation digitale.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="speaker-card">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20173731.jpg" alt="Intervenant 2" class="speaker-img">
+                        <h5>BIKISSI Précieux</h5>
+                        <p class="speaker-role">Entrepreneur Visionnaire</p>
+                        <p class="speaker-bio">Pionnier dans l'entrepreneuriat et l'innovation sociale.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="speaker-card">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20173827.jpg" alt="Intervenant 3" class="speaker-img">
+                        <h5>BAYENGOUA Ricardo</h5>
+                        <p class="speaker-role">Directeur Stratégique</p>
+                        <p class="speaker-bio">Conseiller en stratégie d'entreprise et développement durable.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="speaker-card">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20173858.jpg" alt="Intervenant 4" class="speaker-img">
+                        <h5>SIKATIA Kevin</h5>
+                        <p class="speaker-role">Coach en Leadership</p>
+                        <p class="speaker-bio">Spécialiste en développement personnel et leadership d'équipe.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Galerie -->
+    <section id="galerie" class="gallery py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Galerie Photo</h2>
+            <p class="text-center mb-5 text-muted">Découvrez les moments marquants des éditions précédentes</p>
+            
+            <!-- Carousel Bootstrap -->
+            <div id="galleryCarousel" class="carousel slide mb-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20174013.jpg" class="d-block w-100" alt="Photo 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20180503.jpg" class="d-block w-100" alt="Photo 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20180623.jpg" class="d-block w-100" alt="Photo 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+
+            <!-- Galerie en grille -->
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6">
+                    <div class="gallery-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20180503.jpg" alt="Galerie 1">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="gallery-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20180623.jpg" alt="Galerie 2">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="gallery-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20180707.jpg" alt="Galerie 3">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="gallery-item">
+                        <img src="image/Capture%20d%E2%80%99%C3%A9cran%202026-05-12%20181040.jpg" alt="Galerie 4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Réservation -->
+    <section id="reservation" class="reservation py-5">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-6">
+                    <h2 class="text-center mb-4">Réservez Votre Place</h2>
+                    <form class="reservation-form" id="reservationForm">
+                        <div class="mb-3">
+                            <label for="nom" class="form-label">Nom Complet</label>
+                            <input type="text" class="form-control" id="nom" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="phone" class="form-label">Téléphone</label>
+                            <input type="tel" class="form-control" id="phone" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="company" class="form-label">Entreprise</label>
+                            <input type="text" class="form-control" id="company">
+                        </div>
+                        <div class="mb-3">
+                            <label for="tickets" class="form-label">Nombre de places</label>
+                            <select class="form-select" id="tickets" required>
+                                <option value="">Sélectionnez...</option>
+                                <option value="1">1 place</option>
+                                <option value="2">2 places</option>
+                                <option value="3">3 places</option>
+                                <option value="4">4 places</option>
+                                <option value="5">5+ places</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-gold w-100">Confirmer ma Réservation</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="contact py-5">
+        <div class="container">
+            <h2 class="text-center mb-5">Nous Contacter</h2>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h5>Adresse</h5>
+                        <p>Brazzaville ESGAE</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <h5>Téléphone</h5>
+                        <p>064990998</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <h5>Email</h5>
+                        <p><a href="mailto:chrisharoldmontes@gmail.com">chrisharoldmontes@gmail.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 mb-4">
+                    <h5>Luxoria</h5>
+                    <p>Un événement d'exception pour les professionnels visionnaires.</p>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Liens Rapides</h5>
+                    <ul class="footer-links">
+                        <li><a href="#accueil">Accueil</a></li>
+                        <li><a href="#programme">Programme</a></li>
+                        <li><a href="#intervenants">Intervenants</a></li>
+                        <li><a href="#galerie">Galerie</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 mb-4">
+                    <h5>Nous Suivre</h5>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <p>&copy; 2026 Luxoria. Tous droits réservés.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JavaScript for Reservation Form -->
+    <script>
+        document.getElementById('reservationForm').addEventListener('submit', function(e) {
+            e.preventDefault(); // Empêche la soumission par défaut
+
+            // Récupère le bouton
+            const submitBtn = this.querySelector('button[type="submit"]');
+
+            // Désactive le bouton et change le texte
+            submitBtn.disabled = true;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Envoi en cours...';
+
+            // Simule un délai d'envoi (comme si on envoyait à un serveur)
+            setTimeout(function() {
+                // Change le texte du bouton
+                submitBtn.innerHTML = '<i class="fas fa-check"></i> Demande envoyée !';
+
+                // Affiche un message de succès
+                const successMessage = document.createElement('div');
+                successMessage.className = 'alert alert-success mt-3';
+                successMessage.innerHTML = '<i class="fas fa-check-circle"></i> <strong>Parfait !</strong> Votre demande de réservation a été bien envoyée. Vous recevrez une confirmation par email dans les prochaines 24 heures.';
+
+                // Insère le message après le formulaire
+                const form = document.getElementById('reservationForm');
+                form.parentNode.insertBefore(successMessage, form.nextSibling);
+
+                // Fait défiler vers le message
+                successMessage.scrollIntoView({ behavior: 'smooth', block: 'center' });
+
+                // Réactive le bouton après 5 secondes (au cas où l'utilisateur veut renvoyer)
+                setTimeout(function() {
+                    submitBtn.disabled = false;
+                    submitBtn.innerHTML = 'Confirmer ma Réservation';
+                }, 5000);
+
+            }, 2000); // Délai de 2 secondes pour simuler l'envoi
+        });
+    </script>
+</body>
+</html>
